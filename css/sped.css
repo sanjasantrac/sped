@@ -1,0 +1,519 @@
+
+body{
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+
+}
+/*header*/
+header{
+	color: transparent;
+	height: 50px;
+}
+.desktop-nav{
+	display: none;
+}
+.side-nav{
+	display: none;
+}
+.mobile-nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.mobile-nav span{
+	padding-top: 15px;
+	color: #000;
+
+}
+.mobile-nav img{
+	height: 50px;
+	width: 50px; 
+	
+}
+
+/*hero section*/
+#home{
+	background-image: url(https://images.unsplash.com/photo-1511578194003-00c80e42dc9b?ixlib=rb-0.3.5&s=d8b9724d508e5ac4491878aef2b8ce2c&auto=format&fit=crop&w=1500&q=80);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.5);
+	width: inherit;
+	height: inherit;
+}
+.overlay h1, .overlay h4, .overlay .italic-text{
+	width: 80vw;
+	text-align: left;
+	margin-left: 5%;
+	color: #fff;
+
+}
+.overlay h1{
+	margin-top: 0;
+	padding-top: 40%;
+	margin-bottom: 10px;
+	font-size: 40px;
+
+}
+.overlay h4{
+	font-size: 28px;
+	margin-top: 0;
+	margin-bottom: 5px; 
+}
+.italic-text{
+	color: #fff;
+	font-style: italic;
+	margin-top: 0;
+}
+/*about-us*/
+.image-container{
+	display: none;
+}
+#about h1{
+	text-align: center;
+	font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    color: #242424;
+}
+.about-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.about-container section{
+	width: 100%;
+	padding-top: 60px;
+}
+.about-container section h5{
+	text-align: center;
+	font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    color: #072d0a;
+
+}
+.about-container section hr{
+	height: 5px;
+	width: 7%;
+	margin: auto;
+	color: #000;
+    background: #0c4410;
+    border: none;
+
+}
+.second{
+	background: #f9f9f9;
+}
+.about-img{
+	display: none;
+}
+.text-container{
+	text-align: center;
+	font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    color: #090D5B;
+
+}
+/*services*/
+#services{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background: url(../asets/dark-pattern.png);
+}
+#services h1{
+	padding-top: 40px;
+	text-align: center;
+	font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+}
+#services section{
+	width: 90%;
+	margin: auto;
+}
+.icon{
+	height: 50px;
+	width: 50px;
+	border: 3px solid #eee;
+    padding: 14px 7px;
+}
+.services-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background: white;
+	font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #090D5B;
+    height: 350px;
+}
+.services-container p{
+	text-align: center;
+
+}
+.services-container h5{
+	font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #072d0a;
+
+}
+.services-text p{
+	margin-top: 0;
+}
+
+/*banner*/
+.banner{
+	background-image: url(../asets/transport.jpg);
+	background-size: cover;
+	height: 250px;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+.banner h2{
+	padding-top:100px;
+	text-align: center;
+	font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    width: 85%;
+    margin: auto;
+}
+
+.hire-btn{
+	color: #fff;
+	display: block;
+    
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+	background: #898989;
+	border: none;
+	border-radius: 3px;
+	width: 25%;
+	margin: auto;
+	margin-top: 20px;
+}
+/*contact*/
+#contact h1{
+	text-align: center;
+	font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    color: #242424;
+}
+#contact section{
+	display: flex;
+	flex-direction: column-reverse;
+}
+form{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: url(../asets/truckman.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+    margin: auto;
+    
+
+}
+.info p{
+	font-size: 14px;
+}
+.social{
+	padding-bottom: 35px;
+	color: #072d0a;
+
+
+}
+.social a{
+	display: inline-block;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #fff;
+	background: #08233d;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.social a:hover{
+	opacity: 0.9;
+}
+.fb{
+	padding-right: 15px!important;
+	padding-left: 15px!important;
+}
+.social a:last-child{
+	padding-left: 11px;
+}
+h6{
+	text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+fieldset{
+	width: 88%;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.4);
+	border: none;
+}
+input[type=text],input[type=e-mail],textarea,button{
+	font-size: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #242424;
+    margin-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 20px;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    
+}
+textarea{
+	border: 2px solid #242424;
+}
+button{
+	width: 30%;
+	border: 2px solid #242424;
+	color: white;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #898989;
+
+}
+::active{
+	border-style: none;
+	border: 0px;
+}
+label{
+	padding-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #fff;
+	font-size: 13px;
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+input[type=text]{
+	padding-top: 20px;
+}
+textarea{
+	height: 90px;
+}
+/*footer*/
+footer{
+	position: relative;
+	bottom: 0;
+	background: #444444;
+	opacity: 0.9;
+
+}
+footer p{
+	font-size: 10px;
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 0;
+	padding-top: 7px;
+	color: #eee;
+}
+
+@media only screen and (min-width: 768px){
+.overlay h1{
+	padding-top: 27%;
+}
+#services section{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.services-container{
+	padding-top: 10px;
+	width:18%;
+	text-align: justify;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.services-container p{
+	padding: 0 10px;
+}
+.banner p{
+	padding-top: 13%;
+}
+
+#contact section{
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+.info{
+	width: 27%;
+}
+form{
+	width: 60%;
+}
+fieldset{
+	margin: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+}
+
+@media only screen and (min-width: 992px){
+	.mobile-nav{
+		display: none;
+	}
+	.desktop-nav{
+		display: block;
+		height: inherit;
+	}
+	nav{
+		height: inherit;
+	}
+	ul{
+		height: inherit;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		height: 50px;
+		display: inline-block;
+		padding-top: 13px;
+	}
+	.lg{
+		padding-top: 0px;
+	}
+	li:hover{
+		border-top: 2px solid #adadad;
+	}
+	.desktop-nav nav ul li a{
+		text-decoration: none;
+		color: #3d0404;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		vertical-align: baseline;
+
+	}
+	.desktop-nav nav ul li a img{
+		height: 50px;
+		width: 60px;
+	}
+	.overlay h1{
+		padding-top: 18%;
+		font-size: 50px;
+    	letter-spacing: 2.5px;
+	}
+	#about{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	#about h1{
+		width: 100%;
+		
+	}
+	
+	.about-img{
+		display: inline-block;
+		width: 650px;
+		height: 400px;
+
+
+
+	}
+	.about-container section{
+		
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		
+
+
+
+	}
+	.about-container section div{
+		width: 30%;
+		margin: 0 40px;
+		line-height: 25px;
+
+	}
+	.second img{
+		width: 600px;
+		height: 450px;
+		margin-bottom: 30px;
+	}
+	
+
+	/*.about-container{
+		width: 45%;
+	}*/
+	.banner p{
+		padding-top: 9%;
+	}
+	.hire-btn{
+		width: 15%;
+	}
+	form{
+		width: 50%;
+	}
+	.info{
+		width: 30%;
+	}
+	#contact section{
+		background: #eee;
+	}
+
+}
+@media only screen and (min-width: 1200px){
+
+}
